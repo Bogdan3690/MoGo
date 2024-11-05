@@ -16,8 +16,20 @@ a{
     color: var(--secondary-color);
 }
 
-ul{
+ul,h1,h2,h3,p{
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* margin:0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 3px solid red;
 }
 
 .logo{
@@ -28,6 +40,11 @@ ul{
 
 .nav-link:hover, .nav-link:focus{
     color: var(--akcent-color);
+}
+
+.we-work-with{
+    padding-top: 68px;
+    outline: 2px solid green;
 }
 
 .section-title{
@@ -42,6 +59,11 @@ ul{
  font-family: "Kaushan Script";
  font-size: 24px;
  line-height: normal;
+}
+
+.who-we-are{
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 .serv-title, .team-title{
