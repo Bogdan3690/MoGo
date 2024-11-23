@@ -23,13 +23,12 @@ ul,h1,h2,h3,p{
 }
 
 .container{
-    /* margin:0 auto; */
     margin-left: auto;
     margin-right: auto;
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
 }
 
 header .container{
@@ -55,7 +54,7 @@ header .container{
 
 .we-work-with{
     padding-top: 68px;
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
 }
 
 .section-title{
@@ -64,6 +63,15 @@ header .container{
  line-height: normal;
  font-variant: all-small-caps;
  text-align: center;
+ margin-bottom: 85px;
+}
+
+.we-work-with .section-text{
+    margin-bottom: 20px;
+}
+
+.we-work-with .section-title{
+    margin-bottom: 109px;
 }
 
 .section-text{
@@ -72,6 +80,7 @@ header .container{
  font-size: 24px;
  line-height: normal;
  text-align: center;
+ margin-bottom: 17px;
 }
 
 .serv-list{
@@ -94,15 +103,24 @@ font-variant: small-caps;
 text-align: center;
 }
 
+.main-team-text{
+    text-align: center;
+}
+
+.team-text{
+    display: flex;
+    justify-content: space-around;
+}
+
 .serv-text{
     width: 275px;
 }
 
-.serv-text, .team-text{
+.serv-text, .team-text, .main-team-text{
 color: var(--main-color);
 font-family: Roboto;
 font-size: 15px;
-line-height: 22px;
+line-height: normal;
 }
 
 .team-list{
