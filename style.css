@@ -32,10 +32,21 @@ ul,h1,h2,h3,p{
     outline: 3px solid red;
 }
 
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo{
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
+}
+
+.nav-list{
+    display: flex;
+    gap: 55px;
 }
 
 .nav-link:hover, .nav-link:focus{
@@ -52,6 +63,7 @@ ul,h1,h2,h3,p{
  font-weight: 700;
  line-height: normal;
  font-variant: all-small-caps;
+ text-align: center;
 }
 
 .section-text{
@@ -59,6 +71,14 @@ ul,h1,h2,h3,p{
  font-family: "Kaushan Script";
  font-size: 24px;
  line-height: normal;
+ text-align: center;
+}
+
+.serv-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
 }
 
 .who-we-are{
@@ -71,6 +91,11 @@ ul,h1,h2,h3,p{
 font-size: 14px;
 line-height: normal;
 font-variant: small-caps;
+text-align: center;
+}
+
+.serv-text{
+    width: 275px;
 }
 
 .serv-text, .team-text{
@@ -78,6 +103,11 @@ color: var(--main-color);
 font-family: Roboto;
 font-size: 15px;
 line-height: 22px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
 }
 
 .copy-write{
