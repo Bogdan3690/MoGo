@@ -87,7 +87,11 @@ header .container{
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
-    justify-content: center;
+}
+
+.serv-item{
+    width: calc((100% - 140px) / 3);
+    outline: 2px solid red;
 }
 
 .who-we-are{
