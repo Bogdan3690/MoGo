@@ -90,7 +90,7 @@ header .container{
 }
 
 .serv-item{
-    width: calc((100% - 140px) / 3);
+    flex-basis: calc((100% - 140px) / 3);
     outline: 2px solid red;
 }
 
