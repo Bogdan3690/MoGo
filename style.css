@@ -28,7 +28,6 @@ ul,h1,h2,h3,p{
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 3px solid red; */
 }
 
 header .container{
@@ -48,13 +47,22 @@ header .container{
     gap: 55px;
 }
 
+.nav-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .nav-link:hover, .nav-link:focus{
     color: var(--akcent-color);
 }
 
+.current{
+    color: var(--akcent-color);
+    border-bottom: solid 3px var(--akcent-color);
+}
+
 .we-work-with{
     padding-top: 68px;
-    /* outline: 2px solid green; */
 }
 
 .section-title{
@@ -64,6 +72,18 @@ header .container{
  font-variant: all-small-caps;
  text-align: center;
  margin-bottom: 85px;
+}
+
+.section-title::after{
+    content: '';
+    display: block;
+    background: #F38181;
+    width: 50px;
+    height: 3px;
+    flex-shrink: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
 }
 
 .we-work-with .section-text{
@@ -91,7 +111,6 @@ header .container{
 
 .serv-item{
     flex-basis: calc((100% - 140px) / 3);
-    outline: 2px solid red;
 }
 
 .who-we-are{
@@ -117,6 +136,10 @@ text-align: center;
     justify-content: space-around;
 }
 
+.team-img{
+    box-shadow: 10px 10px 15px 0px gray;
+}
+
 .serv-text{
     width: 275px;
 }
@@ -135,10 +158,6 @@ line-height: normal;
 
 .copy-write{
     font-size: 14px;
-}
-
-span{
-    color: var(--akcent-color);
 }
 
 .button{
