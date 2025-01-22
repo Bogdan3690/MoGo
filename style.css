@@ -171,10 +171,6 @@ line-height: normal;
 font-variant: all-small-caps;
 background-color: var(--secondary-color);
 border: transparent;
-/* padding-top-: 11px;
-padding-bottom: 11px;
-padding-left: 38px;
-padding-right: 38px; */
 padding: 11px 38px;
 }
 
@@ -183,4 +179,18 @@ footer .container{
     justify-content: space-between;
     border-top: 1px solid var(--main-color);
     padding-top: 11px;
+}
+
+.icons{
+    width: 26px;
+    height: 26px;
+}
+
+.icon-link{
+    display: inline-flex;
+    background: #FCE38A;
+    width: 57px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
 }
