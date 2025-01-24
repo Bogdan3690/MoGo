@@ -111,6 +111,7 @@ header .container{
 
 .serv-item{
     flex-basis: calc((100% - 140px) / 3);
+    display: flex;
 }
 
 .who-we-are{
@@ -124,6 +125,11 @@ font-size: 14px;
 line-height: normal;
 font-variant: small-caps;
 text-align: center;
+}
+
+.serv-title{
+    text-align: start;
+    margin-bottom: 20px;
 }
 
 .main-team-text{
@@ -184,13 +190,30 @@ footer .container{
 .icons{
     width: 26px;
     height: 26px;
+    fill: currentColor;
 }
 
 .icon-link{
+    color: #F38181;
     display: inline-flex;
     background: #FCE38A;
     width: 57px;
     height: 57px;
     justify-content: center;
     align-items: center;
+}
+
+.icon-link:hover{
+    background-color: #95E1D3;
+}
+
+.social-network{
+    display: flex;
+    gap: 1px;
+}
+
+.services-icon{
+    width: 37px;
+    height: 37px;
+    margin-right: 20px;
 }
