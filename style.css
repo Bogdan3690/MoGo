@@ -205,6 +205,7 @@ footer .container{
 
 .icon-link:hover{
     background-color: #95E1D3;
+    border-radius: 50%;
 }
 
 .social-network{
