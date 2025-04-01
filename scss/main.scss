@@ -1,7 +1,14 @@
-@mixin ceentredFlex(){
-    display: flex;
+@mixin ceentredFlex($type){
+    display: $type;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;}
+    .main-button{
+        @include ceentredFlex(flex)       
+    }
+    .second-button{
+        @include ceentredFlex(inline-flex)
+    }
+
     :root{
         --secondary-color: #95E1D3;
         --main-color: #B6B6B6;
@@ -287,4 +294,3 @@
     .team-item:hover .overlay{
         transform: translate(0,0);
     }
-}
